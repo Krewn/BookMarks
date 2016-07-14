@@ -4,10 +4,7 @@ myFile = open("saved.pyDat","r")
 
 content = myFile.read()
 
-if content[0] == "\n":
-	content = content[1:]
-
-lines = [eval(k) for k in content.split("\n")]
+lines = [eval(k) for k in content.split("\n") if k != ""]
 
 output = """
 <!DOCTYPE html>
