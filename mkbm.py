@@ -51,7 +51,7 @@ output +="""<br>
 							<a href="https://krewn.github.io/bukeVote/" id="fl">Vute</a><a id = "fc">blog</a><a href="https://krewn.github.io/ApophysisOutPuts/" id ="fr">imgs</a>
 							<a href="mailto:kpie314@gmail.com", id= "fc">kpie314@gmail.com</a><br>
 							<font id = "fc">(802)-760-0677</font><br>
-							<a href="KevinNelson.pdf">Resume</a>
+							<a href="https://krewn.github.io/KevinNelson.pdf">Resume</a>
 							<a href="https://krewn.github.io/AgileContracts">Agile Contracts</a><br>
 						</div>
 					</div>
@@ -65,7 +65,7 @@ output +="""<br>
 	</body>
 </html>
 """
-opFile = open("bm.html","w")
+opFile = open("index.html","w")
 opFile.write(output)
 opFile.close()
 

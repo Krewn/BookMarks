@@ -7,7 +7,7 @@ LinkTitlePairs = open("saved.pyDat","a")
 
 if len(args)==2:
 	if "http" in args[1]:
-		LinkTitlePairs.write("\n"+str([args[1],args[2]]))
+		LinkTitlePairs.write("\n"+str([args[1],args[1]]))
 	else:
 		print "please include full web adress."
 
