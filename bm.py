@@ -1,3 +1,4 @@
+# coding: utf-8
 import sys
 args = sys.argv
 import os
